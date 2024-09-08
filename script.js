@@ -6,3 +6,7 @@ var tl = gsap.timeline({scrollTrigger:{
   scrub:1,
   pin:true,
 }});
+
+tl.to("#top",{
+  
+})
