@@ -2,8 +2,8 @@ var tl = gsap.timeline({
   scrollTrigger: {
     trigger: "#main",
     start: "50% 50%",
-    end: "100% 50%",
-    markers: true,
+    end: "bottom 50%",
+    // markers: true,
     scrub: 1,
     pin: true,
   },
@@ -17,9 +17,34 @@ tl.to(
   "together"
 ) //to run both at the same time
   .to(
-    "#bottom",
+    "#center",
     {
-      bottom: "-50%",
+      height: "50vh",
     },
     "together"
-  ); //to run both at the same time
+  )
+  .to(
+    "#bottom",
+    {
+      bottom: "-60%",
+    },
+    "together"
+  ) //to run both at the same time
+  .to(
+    "#top-h1",
+    {
+      top: "80%",
+    },
+    "together"
+  ) //to run both at the same time
+  .to(
+    "#bottom-h1",
+    {
+      bottom: "-60%",
+    },
+    "together"
+  ) //to run both at the same time
+  .from(".content", {
+    y: 600,
+    delay: 0.1,
+  });
