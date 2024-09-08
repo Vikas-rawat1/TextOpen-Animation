@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
+/* @font-face {
   font-family: Founder;
   src: url(FoundersGroteskCondensed-Bold.ttf);
 }
@@ -16,7 +16,7 @@
 @font-face {
   font-family: Cardinali;
   src: url(cardinalfruitweb-italic.ttf);
-}
+} */
 
 html,
 body {
