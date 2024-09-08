@@ -1,1 +1,1 @@
-var tl = gsap.timline();
+var tl = gsap.timline({scrollTrigger:});
