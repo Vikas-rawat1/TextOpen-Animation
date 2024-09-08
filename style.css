@@ -16,7 +16,7 @@ body {
   background-color: rgba(6, 6, 6, 0.922);
   position: relative;
 }
-#main h1 {
+#main h1 { 
   font-size: 20vw;
   position: absolute;
   top: 50%;
