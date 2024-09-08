@@ -8,5 +8,5 @@ var tl = gsap.timeline({scrollTrigger:{
 }});
 
 tl.to("#top",{
-  y:"-50%",
+  top:"-50%",
 })
