@@ -4,5 +4,5 @@ var tl = gsap.timeline({scrollTrigger:{
   end:"100% 50%",
   markers:true,
   scrub:1,
-  pin:true,
+  // pin:true,
 }});
