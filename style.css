@@ -27,7 +27,7 @@ body {
 #main {
   width: 100%;
   height: 100vh;
-  background-color: rgba(7, 7, 7, 0.918);
+  /* background-color: rgba(7, 7, 7, 0.918); */
   position: relative;
 }
 #main h1 {
@@ -44,7 +44,7 @@ body {
   /* top: -10%; */
   width: 100%;
   height: 50vh;
-  background-color: rgb(211, 67, 67);
+  /* background-color: rgb(211, 67, 67); */
   overflow: hidden; /*this will hidden the overflow text from bottom*/
 }
 #center {
@@ -57,7 +57,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 50vh;
-  background-color: rgb(50, 125, 20);
+  /* background-color: rgb(50, 125, 20); */
   overflow: hidden; /*this will allow to hide the bottom area of gallery text from top*/
 }
 #top-h1 {
