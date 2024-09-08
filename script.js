@@ -11,5 +11,5 @@ tl.to("#top",{
   top:"-50%",
 })
 tl.to("#bottom",{
-  top:"-50%",
+  bottom:"-50%",
 })
