@@ -1,6 +1,6 @@
 var tl = gsap.timeline({scrollTrigger:{
   trigger:"#main",
-  start:"50% 45%",
+  start:"50% 50%",
   end:"100% 50%",
   markers:true,
   scrub:1,
@@ -9,7 +9,7 @@ var tl = gsap.timeline({scrollTrigger:{
 
 tl.to("#top",{
   top:"-50%",
-})
-tl.to("#bottom",{
+},"together")
+.to("#bottom",{
   bottom:"-50%",
-})
+},"together")
