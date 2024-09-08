@@ -57,6 +57,13 @@ body {
   height: 50vh;
   background-color: rgb(50, 125, 20);
 }
+#top-h1{
+  bottom: 50% !important;
+}
+
+#bottom-h1{
+  top: 50% !important;
+}
 
 /* #top-h1 {
     color: rgb(204, 202, 202);
