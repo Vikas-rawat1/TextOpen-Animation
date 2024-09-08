@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 50vh;
   background-color: rgb(211, 67, 67);
-  overflow: hidden;
+  overflow: hidden; /*this will hidden the overflow text from bottom*/
 }
 #center {
   position: relative;
