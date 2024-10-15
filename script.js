@@ -7,7 +7,7 @@ var tl = gsap.timeline({
     scrub: 1,
     pin: true,
   },
-}); 
+});
 
 tl.to(
   "#top",
