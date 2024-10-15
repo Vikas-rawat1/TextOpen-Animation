@@ -6,7 +6,7 @@ var tl = gsap.timeline({
     // markers: true,
     scrub: 1,
     pin: true,
-  },
+  }, 
 });
  
 tl.to(
